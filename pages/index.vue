@@ -33,8 +33,8 @@
 </template>
 
 <script lang="ts">
-import CurrencyExchange from '~/components/CurrencyExchange.vue'
-import { convert } from '~/api/index'
+import CurrencyExchange from '../components/CurrencyExchange.vue'
+import { convert } from '../api/index'
 
 type ExchangeType = {
   value: number
